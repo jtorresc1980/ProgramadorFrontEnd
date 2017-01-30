@@ -1,0 +1,65 @@
+.cuerpo{
+	/* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
+	background-position: center center;
+	/* La imagen de fondo no se repite */
+	background-repeat: no-repeat;
+	/* La imagen de fondo está fija en el viewport, 
+	de modo que no se mueva cuando la altura del contenido supere la altura de la imagen. */
+	background-attachment: fixed;
+	/* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+	background-size: cover;
+	/* Fijamos un color de fondo para que se muestre mientras se está cargando la imagen de fondo 
+	o si hay problemas para cargarla  */
+	/*background-color: #777721;*/
+	width: 100%;
+}
+
+.t1{
+	
+}
+
+.resultado{
+	/* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
+	background-position: center center;
+	/* Fijamos un color de fondo */
+	background-color: #ffffff;
+	border-radius: 10px;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	box-shadow: 0px 3px 0px #151c3c;
+}
+
+.button {
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px #151c3c;
+	border-radius: 5px;
+}
+
+.button2 {
+	background: #246;
+	color: #000;
+	display: inline-block;
+	font-size: 1.15em;
+	margin: 15px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px #373111;
+
+}
+
+.titulo{
+	text-align: center;
+	font-size: 2.25em;
+	color: #fff;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ordenador de serie</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/funciones.js"></script>
+	</head>
+	<body language=JavaScript onLoad="cargar()" class="cuerpo" background="images/fondo.jpg">
+	<!--background="images/fondoCelular.jpg"-->
+	<p class="titulo">Ordenador de serie</p>
+	<table class="t1" align="center">
+	<tr><td>
+    <form>
+		<input type="number" id="numerar" name="numero" required="required" placeholder="Introduce un numero" class="button2"><br>
+		<input type="button" id="iniciar" name="inicia" value="Iniciar Proceso" onClick="empezar()" class="button"><br>
+		<input type="hidden" id="display" name="display" value="0" size=20>
+		<input type="button" id="agregar" name="agrega" value="Agregar Numero" onClick="addChar()" class="button"><br>
+		<input type="button" id="ordenar" name="ordena" value="Ordenar" onClick="orden(this.form.display)" class="button"><br>
+		<input type="button" id="visualizar" name="visualiza" value="Visualizar" onClick="mostrar()" class="button">
+    </form>	
+    </td></tr>
+    <tr><td><p id="demo" class="resultado"></p></td></tr>
+	</table>
+	
+  </body>
+</html>
